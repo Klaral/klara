@@ -321,6 +321,12 @@ body {
     float: right;
 }
 
+.imgportfolio2:hover{
+    opacity: 0.4;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;   
+}
+
 @media screen and (max-width: 760px) {
     .imgportfolio2 {
         height: 20%;
@@ -354,6 +360,12 @@ body {
     }    
 }
 
+.imgportfolio3:hover{
+    opacity: 0.4;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;   
+}
+
 
 .imgportfolio4{
     float: right;
@@ -371,6 +383,12 @@ body {
         height: 40%;
         width: 100%;
     }    
+}
+
+.imgportfolio4:hover{
+    opacity: 0.4;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;   
 }
 
 
