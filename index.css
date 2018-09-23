@@ -23,7 +23,7 @@ body {
 .header {
     text-align: center;
     background-color: #e8d5c9;
-    opacity: 0.6;
+    opacity: 0.5;
     overflow: hidden;
     position: fixed;
     z-index: 1;
@@ -40,6 +40,8 @@ body {
     font-size: 20px;
     padding: 25px;
     margin-top: 10px;
+    
+    /*border: red solid 1px;*/
 }
 
 @media screen and (max-width: 760px) {
@@ -49,12 +51,50 @@ body {
     }    
 }
 
+/* Dropdown Button */
+.dropbtn {
+    background-color: #e8d5c9;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+}
+
+.dropbtn:hover{
+    text-decoration: none;
+    color: #b79c8b;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    /*position: absolute;*/
+    background-color: #e8d5c9;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    text-decoration: none;
+    color: #b79c8b;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
 
 .page{
     color: #8b8d8e;
     padding: 25px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: 0.3s ease;
 }
 
@@ -101,7 +141,13 @@ body {
 
 @media screen and (max-width: 760px) {
     .mainHem{
-         height: 500px;
+         height: 700px;
+    }    
+}
+
+@media screen and (max-width: 1100px) {
+    .mainHem{
+         height: 1000px;
     }    
 }
 
@@ -119,14 +165,13 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgklara{
          width: 40%;
          margin-left: 70px;
          margin-top: 200px;
     }    
 }
-
 
 
 .frontendText{
@@ -151,14 +196,15 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .frontendText{
-         font-size: 30px;
+         font-size: 50px;
          margin-top: 200px;
          margin-right: 600px;
          color: #b79c8b;
     }    
 }
+
 
 /**************** MAIN KLARA *********************************************************/
 
@@ -192,7 +238,7 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .linje{
          border-right: 1px solid #e8d5c9;
     }    
@@ -215,7 +261,7 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgprofil{
          margin-left: 20px;
          width: 70%;
@@ -309,7 +355,7 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgportfolio1 {
         height: 40%;
         width: 100%;
@@ -334,7 +380,7 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgportfolio2 {
         height: 40%;
         width: 100%;
@@ -346,6 +392,12 @@ body {
 
 }
 
+.imgportfolio3:hover{
+    opacity: 0.4;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;   
+}
+
 @media screen and (max-width: 760px) {
     .imgportfolio3 {
         height: 20%;
@@ -353,17 +405,11 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgportfolio3 {
         height: 40%;
         width: 100%;
     }    
-}
-
-.imgportfolio3:hover{
-    opacity: 0.4;
-    -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;   
 }
 
 
@@ -371,6 +417,13 @@ body {
     float: right;
 }
 
+.imgportfolio4:hover{
+    opacity: 0.4;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;   
+}
+
+
 @media screen and (max-width: 760px) {
     .imgportfolio4 {
         height: 20%;
@@ -378,17 +431,11 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgportfolio4 {
         height: 40%;
         width: 100%;
     }    
-}
-
-.imgportfolio4:hover{
-    opacity: 0.4;
-    -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;   
 }
 
 
@@ -404,12 +451,13 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgportfolio5 {
         height: 40%;
         width: 100%;
     }    
 }
+
 
 
 .imgportfolio6{
@@ -424,12 +472,13 @@ body {
     }    
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .imgportfolio6 {
         height: 40%;
         width: 100%;
     }    
 }
+
 
 /**************** MAIN KONTAKT ***********************************************************/
 
