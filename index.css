@@ -217,7 +217,7 @@ body {
 
 @media screen and (max-width: 1000px) {
     .imgprofil{
-         margin-left: 0px;
+         margin-left: 20px;
          width: 70%;
          height: 40%;
     }    
