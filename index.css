@@ -93,8 +93,8 @@ body {
 .page{
     color: #8b8d8e;
     padding: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
     transition: 0.3s ease;
 }
 
