@@ -69,7 +69,8 @@ body {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    /*position: absolute;*/
+    position: absolute;
+    margin-left: 33%;
     background-color: #e8d5c9;
     z-index: 1;
 }
@@ -463,6 +464,7 @@ body {
 .imgportfolio6{
     float: right;
 }
+
 
 @media screen and (max-width: 760px) {
     .imgportfolio6 {
